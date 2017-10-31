@@ -1,0 +1,53 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.landing-page{
+	height: 600px;
+	margin: 0;
+	text-align: center;
+	background-color: #000000;
+	background-image: url("../images/office-pix.jpg");
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+.container{
+    background-color: #ffffff;
+	margin: 0 auto;
+	width: 600px;
+	min-height: 400px;
+}
+.container h3{
+    text-align: center;
+    size: 20px;
+}
+.container p{
+    text-align: center;
+    size: 15px;
+}
+label{
+ text-align: left;   
+    
+}
+.btn-ready{
+	color: #ffffff;
+	background-color: #00a74f;
+	margin-left: 100px;
+	margin-top: 200px;
+	width: 150px;
+	height: 50px;
+}
+.btn-danger{
+	color: #ffffff;
+	margin-right: 100px;
+	margin-top: 200px;
+	width: 150px;
+	height: 50px;
+}
+.btn-read{
+	color: #ffffff;
+	background-color: #00a74f;
+	width: 150px;
+	height: 50px;
+}

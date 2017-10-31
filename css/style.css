@@ -1,0 +1,67 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.landing-page{
+	position: relative;
+	height: 600px;
+	margin: 0;
+	background-color: #000000;
+	background-image: url("../images/office-pix.jpg");
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#taxIt{
+	background-color: #ffffff;
+	margin: 0 auto;
+	width: 600px;
+	min-height: 350px;
+}
+.content{
+	margin: 50px auto;
+	width: 400px;
+	height: 300px;
+}
+}
+.content a{
+	position: relative;
+	margin: 50px auto;
+
+}
+.serviceIcon{
+	text-align: center;
+}
+.col-md-6{
+	margin: 0 ;
+}
+.btn-ready{
+	color: #ffffff;
+	background-color: #00a74f;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 50px;
+	margin-right: 0;
+	width: 150px;
+	height: 50px;
+}
+.btn-danger{
+	color: #ffffff;
+	margin-right: 30px;
+	width: 150px;
+	height: 50px;
+}
+em{
+	color:  #00a74f;
+}
+hr{
+	margin: 0 auto;
+	max-width: 180px;
+    border-width: 50px;
+    border-color: #bcb8ba;
+}
+p{
+	text-align: center;
+
+}
