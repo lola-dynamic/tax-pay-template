@@ -2,46 +2,60 @@
 	padding: 0;
 	margin: 0;
 }
+
+.container{
+    background-color: #00a74f;
+	min-height: 600px;
+	max-width: 1300px;
+}
+
 .landing-page{
-	height: 600px;
+	height: 660px;
+	width: 1360px;
 	margin: 0;
-	text-align: center;
-	background-color: #000000;
+	background-color: #00a74f;
 	background-image: url("../images/office-pix.jpg");
 	background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    }
-.container{
-    background-color: #ffffff;
-	margin: 0 auto;
-	width: 600px;
-	min-height: 400px;
 }
-.container h3{
+.col-md-6 h3{
+	color: #ffffff;
     text-align: center;
     size: 20px;
 }
-.container p{
+.col-md-6 p{
+	color: #ffffff;
     text-align: center;
     size: 15px;
 }
+.col-md-6 h4{
+	color: #ffffff;
+	text-align: center;
+	margin-top: 200px;
+}
 label{
+	color: #ffffff;
  text-align: left;   
     
 }
+form{
+	margin-left: 50px;
+	width: 500px;
+}
+
 .btn-ready{
 	color: #ffffff;
 	background-color: #00a74f;
-	margin-left: 100px;
-	margin-top: 200px;
+	margin-left: 170px;
+	margin-top: 50px;
 	width: 150px;
 	height: 50px;
 }
 .btn-danger{
 	color: #ffffff;
 	margin-right: 100px;
-	margin-top: 200px;
+	margin-top: 50px;
 	width: 150px;
 	height: 50px;
 }
@@ -50,4 +64,29 @@ label{
 	background-color: #00a74f;
 	width: 150px;
 	height: 50px;
+}
+.footer{
+	text-align: center;
+	font-weight: bold;
+
+
+}
+.footer a{
+	color: #00a74f;
+}
+.footer h5{
+	color: #ffffff;
+	margin-top: 50px;
+	font-size: 15px;
+}
+.footer p{
+	color: #ffffff;
+	font-size: 15px;
+}
+.fa-pencil{
+	color: red;
+}
+
+#column-left{
+
 }
