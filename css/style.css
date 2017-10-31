@@ -2,9 +2,9 @@
 	padding: 0;
 	margin: 0;
 }
-.over-lay {
-	height: 600px;
-	background-color: 
+.overlay {
+	min-height: 650px;
+	background: rgba(0,0,0,0.6);
 }
 #landing-page{
 	position: relative;
@@ -15,9 +15,13 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-.over-lay:hoover{
-	background-color: rgba(5,3,2,0.8);
+
+#pageWrapper {
+	padding: 0 !important;
 }
+/* .over-lay:hoover{
+	background-color: rgba(5,3,2,0.8);
+} */
 .logo{
 	margin-left: auto;
 	margin-right: auto;
