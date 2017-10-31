@@ -8,7 +8,7 @@
 }
 #landing-page{
 	position: relative;
-	height: 650px;
+	/* height: 650px; */
 	margin: 0;
 	background-image: url("../images/office-pix.jpg");
 	background-position: center;
