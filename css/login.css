@@ -1,52 +1,85 @@
 *{
 	padding: 0;
-	margin: 0;
+	margin: 0 ;
 }
 .container-fluid{
 	background-color: #ffffff;
 	min-height: 600px;
 }
-.login-page{
-	background-color: #f0f0f0;
-	width: 1200px;
-	margin: 0 100px;
-	max-height: 800px;
 
-	border: 4px solid grey;
+.overlay {
+	min-height: 650px;
+	background: rgba(0,0,0,0.4);
 }
 
+#landing-page{
+	min-height: 660px;
+	width: 1360px;
+	margin: 0;
+	background-color: #00a74f;
+	background-image: url("../images/office-pix.jpg");
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 !important;
+}
+
+.logo{
+	margin-top: 50px ;
+	margin-left: 500px;
+}
+
+#pageWrapper {
+	padding: 0 !important;
+}	
+
 #login{
-	background-color: #ffffff;
-	margin-top: 150px;
 	margin-bottom: 150px;
 	margin-left: 300px;
 	margin-right: 0;
-	width: 350px;
-	height: 300px;
+	width: 400px;
+	height: 400px;
 }
+
 #login h2{
+	color: #ffffff;
 	font-size: 30px;
 	margin-top: 40px;
 }
-#login a{
-	color: #00a74f;
-}
-#register{
-	background-color: #00a74f;
-	margin: 150px 0;
-	width: 320px;
-	height: 300px;
+
+#login p{
+	color: #ffffff;
 }
 
+#login a{
+	font-weight: bold;
+	color: #00a74f;
+}
+
+#register{
+	background-color: #00a74f;
+	margin: 0;
+	width: 400px;
+	height: 400px;
+}
+
+hr{
+	color: red;
+	width: 200px;
+	margin: 0 auto;
+}
 button{
-	width: 110px;
+	width: 150px;
+	height: 50px;
 }
 
 #loginBtn {
 	width: 100%;
 	text-align: center;
 }
+
 .btn-ready{
+	color: #ffffff;
 	background-color: #00a74f;
 }
 
@@ -55,6 +88,7 @@ button{
 	color: #ffffff;
 	text-align: center;
 }
+
 #register h2{
 	font-size: 30px;
 	color: #ffffff;
@@ -68,20 +102,7 @@ button{
 .inner-addon { 
     position: relative; 
 }
- input form{
- 	/*width: 10px;*/
- 	/*height: 40px;*/
- }
- .btn-danger{
-
- }
  
- em{
- 	color: #d9534f;
- 	background-color: #ffffff;
- 	font-weight: bold;
- 	font-size: 15px;
- }
 /* style icon */
 .inner-addon .glyphicon {
   position: absolute;

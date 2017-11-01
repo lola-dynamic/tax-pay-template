@@ -4,7 +4,7 @@
 }
 .overlay {
 	min-height: 650px;
-	background: rgba(0,0,0,0.6);
+	background: rgba(0,0,0,0.4);
 }
 #landing-page{
 	position: relative;
@@ -20,50 +20,50 @@
 #pageWrapper {
 	padding: 0 !important;
 }
-/* .over-lay:hoover{
-	background-color: rgba(5,3,2,0.8);
-} */
+
 .logo{
 	margin-left: auto;
 	margin-right: auto;
+	width: 150px;
+}
+.img-responsive{
 	margin-top: 50px;
-	width: 200px;
 }
 
 #taxIt{
 	background-color: #ffffff;
+	padding: 50px;
 	margin: 100px auto;
-	width: 600px;
+	width: 500px;
 	min-height: 400px;
 }
 
-
-.content a{
-	position: relative;
-	margin: 50px auto;
-
-}
 .serviceIcon{
 	text-align: center;
 }
-.col-md-6{
-	margin: 0 ;
-}
+
 .btn-ready{
 	color: #ffffff;
 	background-color: #00a74f;
-	margin-left: 130px;
+	margin-left: 50px;
+	margin-top: 20px;
 	width: 150px;
 	height: 50px;
 }
 .btn-danger{
 	color: #ffffff;
 	margin-right: 30px;
+	margin-top: 20px;
 	width: 150px;
 	height: 50px;
 }
 
 p{
 	text-align: center;
-
+}
+.footer a{
+	color:#00a74f; 
+}
+.footer p{
+	margin-top: 50px;
 }
