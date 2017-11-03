@@ -1,0 +1,218 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.comtainer-fluid{
+	min-height: 600px;
+	max-width: 100%;
+}
+#PageWrapper{
+	padding: 0 !important;
+	margin: 0 !important;
+}
+.landing-page{
+	position: relative;
+	min-height: 500px;
+	width: 100%;
+	margin: 0;
+	background-color: #00a74f;
+	background-image: url("../images/module-4.jpg");
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 !important;
+}
+.overlay{
+	min-height: 500px;
+	width: 100%;
+	background: rgba(0,0,0,0.4);
+}
+#header{
+	position: relative;
+	margin-top: 30px;
+	padding: 10px;
+}
+.navbar navbar-default{
+	text-align: center;
+}
+.col-md-2 a{
+	color: #000000;
+	font-weight: bold;
+	font-size: 20px;
+}
+.row header{
+	margin-top: ;
+}
+.col-md-4{
+	margin-left: 50px;
+}
+.col-md-1 a{
+	color: #ffffff;
+}
+button{
+	width: 120px;
+	height: 50px;
+	font-size: 15px;
+}
+#login{
+	margin-right: 30px;
+}
+
+.btn-ready{
+	color: #ffffff;
+	background-color: #00a74f;
+}
+P{
+	color: #ffffff;
+}
+.content {
+	text-align: center;
+	margin: 80px auto;
+	font-size: 30px;
+}
+.col-md-3 h4{
+	color: #00a74f;
+} 
+.col-md-3 p{
+	color: #000000;
+}
+
+.container{
+	min-height: 600px;
+	width: 1500px;
+}
+#beneficiary{
+	width: 230px;
+    height: 230px;
+    text-align: center;
+    margin-left: 50px;
+    background-color: #ebfff6;
+    box-shadow: 2px 1px 2px #888888;
+}
+#wallet{
+	width: 230px;
+    height: 230px;
+    text-align: center;
+     margin-left: 50px;
+    background-color: #ebfff6;
+    box-shadow: 2px 1px 2px #888888;
+}
+#slip{
+	width: 230px;
+    height: 230px;
+    text-align: center;
+     margin-left: 50px;
+    background-color: #ebfff6;
+    box-shadow: 2px 1px 2px #888888;
+}
+#vendor{
+	width: 230px;
+    height: 230px;
+    text-align: center;
+     margin-left: 50px;
+    background-color: #ebfff6;
+    box-shadow: 2px 1px 2px #888888;
+}
+#salary{
+	width: 230px;
+    height: 230px;
+    text-align: center;
+     margin-left: 50px;
+    background-color: #ebfff6;
+    box-shadow: 2px 1px 2px #888888;
+}
+#pension{
+	width: 230px;
+    height: 230px;
+    text-align: center;
+     margin-left: 50px;
+    background-color: #ebfff6;
+    box-shadow: 2px 1px 2px #888888;
+}
+#payment{
+	width: 230px;
+    height: 230px;
+    text-align: center;
+     margin-left: 50px;
+    background-color: #ebfff6;
+    box-shadow: 2px 1px 2px #888888;
+}
+#remit{
+	width: 230px;
+    height: 230px;
+    text-align: center;
+     margin-left: 50px;
+    background-color: #ebfff6;
+    box-shadow: 2px 1px 2px #888888;
+}
+.container h2{
+	text-align: center;
+	margin-top: 0;
+	width: 1500px;
+}
+
+footer{
+	background: rgba(1,1,1,0.6);
+	height: 550px;
+	width: 1500px;
+	margin: 0 auto;
+}
+.tax-footer{
+
+}
+#payroll-logo{
+	margin-top: 20px;
+	margin-left: 50px;
+	height: 60px;
+	width: 150px;
+}
+
+.col-md-5{
+	margin-left: 100px;
+	margin-top: 50px;
+	text-align: center;
+}
+.col-md-5 p{
+	font-size: 20px;
+}
+.col-md-5 h4{
+	font-size: 20px;
+	color: #ffffff;
+	font-weight: bold;
+	text-align: center;
+}
+.footer a{
+	color: #00a74f;
+}
+.footer{
+	margin-left: 50px;
+	margin-top: 30px;
+	text-align: center;
+}
+.footer p{
+	margin-top: 20px;
+	font-size: 20px;
+}
+.fa-map-marker{
+	margin-top: 50px;
+	color: red;
+}
+
+.fa-envelope-square{
+	margin-top: 30px;
+	color: #00a74f;
+}
+.fa-phone-square{
+	margin-top: 30px;
+	color: blue;
+}
+.tax-footer hr{
+	width: 220px;
+	margin: 0 200px;
+	text-align: center;
+}
+.footer hr{
+	width: 1400px;
+	margin: 0 auto;
+
+}

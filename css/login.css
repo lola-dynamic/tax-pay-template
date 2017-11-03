@@ -5,10 +5,11 @@
 .container-fluid{
 	background-color: #ffffff;
 	min-height: 600px;
+	max-width: 100%;
 }
 
 .overlay {
-	min-height: 650px;
+	min-height: 660px;
 	background: rgba(0,0,0,0.4);
 }
 
