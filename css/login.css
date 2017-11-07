@@ -27,8 +27,8 @@
 }
 
 .logo{
-	margin-top: 50px ;
-	margin-left: 100px;
+	/*margin-top: 50px ;*/
+	/*margin-left: 100px;*/
 }
 
 #pageWrapper {
@@ -85,10 +85,18 @@ button{
 	background-color: #00a74f;
 }
 
+#signUpCaption {
+	margin: 40px 0;
+}
+
 #register p{
 	font-size: 13px;
 	color: #ffffff;
-	text-align: center;
+	/*text-align: center;*/
+}
+
+#btnHolder {
+	margin: 40px 0;
 }
 
 #register h2{
