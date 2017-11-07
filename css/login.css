@@ -3,19 +3,20 @@
 	margin: 0 ;
 }
 .container-fluid{
-	background-color: #ffffff;
+	/*background-color: #ffffff;
 	min-height: 600px;
-	max-width: 100%;
+	/*max-width: 100%;*/
 }
 
 .overlay {
-	min-height: 660px;
+	min-height: 100%;
 	background: rgba(0,0,0,0.4);
 }
 
 #landing-page{
-	min-height: 660px;
-	width: 1360px;
+	position: relative;
+	height: 100%;
+	/*width: 1360px;*/
 	margin: 0;
 	background-color: #00a74f;
 	background-image: url("../images/office-pix.jpg");
@@ -27,7 +28,7 @@
 
 .logo{
 	margin-top: 50px ;
-	margin-left: 500px;
+	margin-left: 100px;
 }
 
 #pageWrapper {
