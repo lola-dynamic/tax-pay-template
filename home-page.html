@@ -7,46 +7,31 @@
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-	<div class="container-fluid" id="pageWrapper">
+	<div class="pageWrapper">
 		<!-- beginning of header page -->
-		<div class="landing-page">
-			<div class="overlay">
 				<div class="row" id="navigation">
 					<nav class="navbar navbar-inverse">
 						<ul>
-							<!--<li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>-->
-							<!--<li><a href="#">Link</a></li>-->
+							<li class="active" id="logo"><a href="index.html"><img src="images/logo.png" class="img-responsive"><span class="sr-only"></span></a></li>
+							<li><a href="#">HOW IT WORKS</a></li>
+							<li><a href="#">ABOUT US</a></li>
+							<li class="active"><a href="login-area.html"><div class="serviceIcon"><button type="signIn" class="btn btn-ready"> <span class="fa fa-1x fa-envelope">    SIGN IN</span> </button></a></li>
+							<li class="active"><a href="index.html"><div class="serviceIcon"><button type="getStarted" class="btn btn-danger"> <span class="fa fa-1x fa-pencil">GET STARTED</span> </button></a></li>
+							
 						</ul>
-						<!--<div class="row" id="header">-->
-							<!--<div class="col-md-4" id="logo">-->
-								<!--<a href="index.html"><img src="images/logo.png" class="img-responsive"></a>-->
-							<!--</div>-->
-							<!--<div class="col-md-2">-->
-								<!--<a href="#">HOW IT WORKS?</a>-->
-							<!--</div>-->
-							<!--<div class="col-md-2">-->
-								<!--<a href="#">ABOUT US</a>-->
-							<!--</div>-->
-							<!--<div class="col-md-1">-->
-								<!--<a href="login-area.html"><div class="serviceIcon"><button type="signIn" class="btn btn-ready">-->
-									<!--<span class="fa fa-1x fa-envelope"> SIGN IN </span></button></div>-->
-								<!--</a>-->
-							<!--</div>-->
-							<!--<div class="col-md-1">-->
-								<!--<a href="index.html"><div class="serviceIcon"><button type="getStarted" class="btn btn-danger">-->
-									<!--<span class="fa fa-1x fa-pencil">GET STARTED</span></button></div>-->
-								<!--</a>-->
-							<!--</div>-->
-						<!--</div>-->
 					</nav>
 				</div>
-				<hr>
-				<div class="content">
-					<p>With <em>TaxITPay,</em>I can securely pay<br> Employees Salaries, remit taxes<br>
-					 and other relevant remittances.</p>
+				
+						
+							<div class="landing-page">
+							<div class="overlay">
+								<div class="content">
+							<p id="text">With <em>TaxITPay,</em>I can securely pay<br> Employees Salaries, remit taxes<br>
+							 and other relevant remittances.</p>
+						</div>
+					</div>
 				</div>
-			</div>
-		</div>
+			
 		<!-- end of header page -->
 		
 		<div class="container">
@@ -104,15 +89,19 @@
 				</div>
 			</div>
 			<hr style="border: 0">
-			<footer class="tax-footer">
+		
+		</div>
+
+
+			<footer class="tax-footer container-fluid">
 				<div class="row">
-					<div class="col-md-5">
+					<div class="col-md-6">
 						<h4>About TaxITPayroll</h4>
 						<hr style="border:0.5">
 						<a href="#"><img src="images/taxitPayrollLogo.png" class="img-responsive" id="payroll-logo"><a>
 						<p>TaxiTPayroll® provides the most robust solution<br> for payroll taxes and related obligations in Nigeria.<br> TaxiTPayroll® puts your mind to rest in dealing with<br> employees' monthly salary payment expectations as well<br> as those of the RTAs and also saves your time and costs.</p>
 					</div>
-					<div class="col-md-5">
+					<div class="col-md-6">
 						<h4>Contact Us</h4>
 						<hr>
 						<div class="serviceIcon">
@@ -129,9 +118,6 @@
 					<p><a href="#"><img src="images/taxtechLogo.png" class="img-responsive"></a>Copyright © 2017. All Rights Reserved By <a href="#">Taxaide Technologies Limited.</a></p>
 				</div>
 			</footer>
-		
-
 	</div>
-
 </body>
 </html>
