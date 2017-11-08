@@ -2,68 +2,223 @@
 	padding: 0;
 	margin: 0;
 }
-.overlay {
-	min-height: 650px;
-	background: rgba(0,0,0,0.4);
+body{
+	overflow
 }
-#landing-page{
+
+#navigation{
+	height: 120px;
+	
+}
+#navigation li{
+	color: #ffffff;
+	display: inline-block;
+	padding-left: 80px;
+}
+#navigation a{
+	color: #ffffff;
+	text-decoration: none;
+}
+.pageWrapper{
+	padding: 0 !important;
+	margin: 0 !important;
+}
+.landing-page{
 	position: relative;
-	/* height: 650px; */
-	margin: 0;
-	background-image: url("../images/office-pix.jpg");
+	height: 700px;
+	background-color: #00a74f;
+	background-image: url("../images/teamtax.jpg");
 	background-position: center;
     background-repeat: no-repeat;
-	background-size: cover;
+    background-size: cover;
+}
+.overlay{
 	height: 100%;
+	width: 100%;
+	background: rgba(0,0,0,0.2);
 }
 
-#pageWrapper {
-	padding: 0 !important;
+.navbar navbar-inverse{
+	margin: 0;
 }
-
-.logo{
-	margin-left: auto;
-	margin-right: auto;
-	width: 150px;
+#logo{
+	margin-top: 20px;
+	margin-left: 50px;
 }
-.img-responsive{
-	margin-top: 50px;
+button{
+	width: 120px;
+	height: 50px;
+	margin-left: 50px;
+	font-size: 15px;
 }
-
-#taxIt{
-	background-color: #ffffff;
-	padding: 50px;
-	margin: 100px auto;
-	width: 500px;
-	min-height: 400px;
-}
-
-.serviceIcon{
-	text-align: center;
-}
-
 .btn-ready{
 	color: #ffffff;
 	background-color: #00a74f;
-	margin-left: 50px;
-	margin-top: 20px;
-	width: 150px;
-	height: 50px;
 }
 .btn-danger{
+	margin-left: 20px;
+
+}
+.content p{
 	color: #ffffff;
-	margin-right: 30px;
-	margin-top: 20px;
-	width: 150px;
-	height: 50px;
+	text-align: center;
+	font-size: 30px;
+	margin: 0 auto;
+}
+#text  p{
+	margin-top: 50px; 
 }
 
-p{
+.col-md-3 h4{
+	color: #00a74f;
+} 
+.col-md-3 p{
+	color: #000000;
+}``
+
+.container{
+	height: 600px;
+	width: 100%;
+}
+.container h2{
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-size: 30px;
+	font-weight: bold;
+	color: #000000;
+}
+.container a{
+	text-decoration: none;
+}
+#beneficiary{
+	text-decoration: none;
+	width: 230px;
+    height: 230px;
+    text-align: center;
+    margin-left: 50px;
+    background-color: #ffffff;
+    box-shadow: 2px 1px 2px #888888;
+}
+#wallet{
+	width: 230px;
+    height: 230px;
+    text-align: center;
+     margin-left: 50px;
+    background-color: #ffffff;
+    box-shadow: 2px 1px 2px #888888;
+	text-decoration: none;
+}
+
+#wallet:hover {
+	text-decoration: none;
+}
+#slip{
+	width: 230px;
+    height: 230px;
+    text-align: center;
+     margin-left: 50px;
+    background-color: #ffffff;
+    box-shadow: 2px 1px 2px #888888;
+}
+#vendor{
+	width: 230px;
+    height: 230px;
+    text-align: center;
+     margin-left: 50px;
+    background-color: #ffffff;
+    box-shadow: 2px 1px 2px #888888;
+}
+#salary{
+	width: 230px;
+    height: 230px;
+    text-align: center;
+     margin-left: 50px;
+    background-color: #ffffff;
+    box-shadow: 2px 1px 2px #888888;
+}
+#pension{
+	width: 230px;
+    height: 230px;
+    text-align: center;
+     margin-left: 50px;
+    background-color: #ffffff;
+    box-shadow: 2px 1px 2px #888888;
+}
+#payment{
+	width: 230px;
+    height: 230px;
+    text-align: center;
+     margin-left: 50px;
+    background-color: #ffffff;
+    box-shadow: 2px 1px 2px #888888;
+}
+#remit{
+	width: 230px;
+    height: 230px;
+    text-align: center;
+     margin-left: 50px;
+    background-color: #ffffff;
+    box-shadow: 2px 1px 2px #888888;
+}
+
+footer{
+	background: rgba(0,0,0,0.8);
+	height: 450px;
+	/*width: 1500px;*/
+	overflow: hidden;
+}
+
+#payroll-logo{
+	margin-top: 20px;
+	margin-left: 50px;
+	height: 60px;
+	width: 150px;
+}
+
+.col-md-6 p{
+	color: #ffffff;
+	font-size: 20px;
+}
+.col-md-6 h4{
+	font-size: 20px;
+	color: #ffffff;
+	margin-top: 30px;
+	margin-right: 200px;
+	font-weight: bold;
 	text-align: center;
 }
 .footer a{
-	color:#00a74f; 
+	color: #00a74f;
+}
+.footer{
+	margin-left: 50px;
+	margin-top: 30px;
+	text-align: center;
 }
 .footer p{
-	margin-top: 50px;
+	color: #ffffff;
+	margin-top: 20px;
+	font-size: 20px;
+}
+.fa-map-marker{
+	margin-top: 20px;
+	margin-right: 10px;
+	color: red;
+}
+
+.fa-envelope-square{
+	margin-top: 5px;
+	margin-right: 10px;
+	color: #00a74f;
+}
+.fa-phone-square{
+	margin-top: 5px;
+	margin-right: 10px;
+	color: blue;
+}
+.tax-footer hr{
+	width: 240px;
+	margin: 0 100px;
+	text-align: center;
 }

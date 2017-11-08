@@ -1,55 +1,123 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-	<title>TAX TAY REGISTER PAGE</title>
+	<title>TaxIt Pay Home Page</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-
 <body>
-	<div class="container-fluid" id="pageWrapper">
-		<div id="landing-page">
-			<div class="overlay">
-				<div class="row">
-					<div class="content" id="taxIt">
-						<div class="logo">
-							<a href="index.html">
-								<img src="images/logo.png" class="img-responsive">
-							</a>
-						</div>
-						<div class="serviceIcon">
-							<h2>
-								<span class="fa fa-2x fa-home"></span>
-							</h2>
-						</div>
-						<p>Specify the corporate type</p>
-						<div class="row">
-							<div class="col-md-6">
-								<a href="register-page.html">
-									<button type="individual" class="btn btn-ready">Individual</button>
-								</a>
-							</div>
-							<div class="col-md-6">
-								<a href="corporate.html">
-									<button type="Corporate" class="btn btn-danger">Corporate</button>
-								</a>
-							</div>
-						</div>
+	<div class="pageWrapper">
+		<!-- beginning of header page -->
+				<div class="row" id="navigation">
+					<nav class="navbar navbar-inverse">
+						<ul>
+							<li class="active" id="logo"><a href="index.html"><img src="images/logo.png" class="img-responsive"><span class="sr-only"></span></a></li>
+							<li><a href="#">HOW IT WORKS</a></li>
+							<li><a href="#">ABOUT US</a></li>
+							<li class="active"><a href="login-area.html"><div class="serviceIcon"><button type="signIn" class="btn btn-ready"> <span class="fa fa-1x fa-envelope">    SIGN IN</span> </button></a></li>
+							<li class="active"><a href="signUp-page.html"><div class="serviceIcon"><button type="getStarted" class="btn btn-danger"> <span class="fa fa-1x fa-pencil">GET STARTED</span> </button></a></li>
+							
+						</ul>
+					</nav>
+				</div>
+				
 						
-						<div class="footer">
-							<p>Already have an account?
-							<a href="login-area.html"> Sign in </a>
-						</p>
+							<div class="landing-page">
+							<div class="overlay">
+								<div class="content">
+							<p id="text">With <em>TaxITPay,</em>I can securely pay<br> Employees Salaries, remit taxes<br>
+							 and other relevant remittances.</p>
 						</div>
 					</div>
-
+				</div>
+			
+		<!-- end of header page -->
+		
+		<div class="container">
+			<h2>HOW TAXITPAY WORKS</h2>
+			<div class="row">
+					<div class="col-md-3">
+						<a href="#"><div id="beneficiary"><img src="images/beneficiaries.png"><h4>Beneficiaries</h4>
+						<p>Make payment to beneficiaries, update and edit details of beneficiries.</p>
+						</div></a>
+					</div>
+				<div class="col-md-3">
+					<a href="#"><div id="wallet">
+						<img src="images/wallet.png"><h4>TaxITWallet</h4>
+						<p>Fund your TaxITWallet or check<br> your account balance to carry<br> out any transaction.</p>
+					</div></a>
+				</div>
+				<div class="col-md-3">
+					<a href="#"><div id="slip">
+						<img src="images/receipts.png"><h4>TaxItPaySlip</h4>
+						<p>Send PaySlip to employees<br> with just a click.</p>
+					</div></a>
+				</div>
+				<div class="col-md-3">
+					<a href="#"><div id="vendor">
+						<img src="images/payAVendor.png"><h4>Pay A Vendor</h4>
+						<p>Make payment to any vendor of your choice for service provided.</p>
+					</div></a>
 				</div>
 			</div>
+			<hr style=" border: 0">
+			<div class="row">
+				<div class="col-md-3">
+					<a href="#"><div id="salary">
+						<img src="images/netSalaries.png"><h4>Net Salaries</h4>
+						<p>Make payment for net salaries<br> to employees using uploaded <br>payment schedules.</p>
+					</div></a>
+				</div>
+				<div class="col-md-3">
+					<a href="#"><div id="pension">
+						<img src="images/pension.png"><h4>Pension</h4>
+						<p>Make pension payment to the Pension Fund Administrator(PFA) of your choice.</p>
+					</div></a>
+				</div>
+				<div class="col-md-3">
+					<a href="#"><div id="remit">
+						<img src="images/remitTax.png"><h4>RemitTax</h4>
+						<p>Make income tax remittances to <br>the state internal revenue service<br> for your employees.</p>
+					</div></a>
+				</div>
+				<div class="col-md-3">
+					<a href="#"><div id="payment">
+						<img src="images/makePayment.png"><h4>Make Payment</h4>
+						<p>TaxITPay* supports varieties of <br>payments at your convenience.</p>
+					</div></a>
+				</div>
+			</div>
+			<hr style="border: 0">
+		
 		</div>
+
+
+			<footer class="tax-footer container-fluid">
+				<div class="row">
+					<div class="col-md-6">
+						<h4>About TaxITPayroll</h4>
+						<hr style="border:0.5">
+						<a href="#"><img src="images/taxitPayrollLogo.png" class="img-responsive" id="payroll-logo"></a>
+						<p>TaxiTPayroll® provides the most robust solution<br> for payroll taxes and related obligations in Nigeria.<br> TaxiTPayroll® puts your mind to rest in dealing with<br> employees' monthly salary payment expectations as well<br> as those of the RTAs and also saves your time and costs.</p>
+					</div>
+					<div class="col-md-6">
+						<h4>Contact Us</h4>
+						<hr>
+						<div class="serviceIcon">
+							<p><span class="fa fa-2x fa-map-marker"> </span> 73 Coker Road, ilupeju, Lagos, Nigeria.</p></div>
+						<div class="serviceIcon">
+							<p><span class="fa fa-2x fa-envelope-square"> </span> Email: contact@taxtech.com.ng</p></div>
+						<div class="serviceIcon">
+							<p><span class="fa fa-2x fa-phone-square"> </span> Mobile: +234 90 719 66612</p></div>
+					</div>
+				</div>
+
+				<div class="footer">
+				<hr style="border: 0.5px solid red">
+					<p><a href="#"><img src="images/taxtechLogo.png" class="img-responsive"></a>Copyright © 2017. All Rights Reserved By <a href="#">Taxaide Technologies Limited.</a></p>
+				</div>
+			</footer>
 	</div>
-
 </body>
-
 </html>
