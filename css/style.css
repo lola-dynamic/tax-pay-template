@@ -1,24 +1,33 @@
-*{
+* {
 	padding: 0;
 	margin: 0;
 }
-body{
-	overflow
+
+body {
+	font-family: 'Roboto', sans-serif;
 }
 
-#navigation{
-	height: 120px;
-	
+#navigation {
+	margin-bottom: 0;
+	height: 80px;
+	line-height: 80px;
+	border: none;
+
+	background: rgba(0,0,0,0.35);
 }
-#navigation li{
-	color: #ffffff;
-	display: inline-block;
-	padding-left: 80px;
+
+
+#navigation button {
+	border-radius: 0;
+	padding: 10px;
+
+	box-sizing: border-box;
 }
-#navigation a{
-	color: #ffffff;
-	text-decoration: none;
+#navbarLogo {
+	width: 200px;
+	height: 200px;
 }
+
 .pageWrapper{
 	padding: 0 !important;
 	margin: 0 !important;
@@ -27,24 +36,27 @@ body{
 	position: relative;
 	height: 700px;
 	background-color: #00a74f;
-	background-image: url("../images/teamtax.jpg");
+	background-image: url("../images/module-4.jpg");
 	background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.overlay{
-	height: 100%;
+#overlay{
+	height: 700px;
 	width: 100%;
-	background: rgba(0,0,0,0.2);
+	background: rgba(0,0,0,0.5);
 }
 
-.navbar navbar-inverse{
+.navbar .navbar-inverse {
 	margin: 0;
 }
 #logo{
-	margin-top: 20px;
-	margin-left: 50px;
+	/*margin-top: 20px;*/
+	/*margin-left: 50px;*/
+	width: 80px;
+	height: 80px;
 }
+
 button{
 	width: 120px;
 	height: 50px;
@@ -59,14 +71,23 @@ button{
 	margin-left: 20px;
 
 }
+
+.content {
+	position: relative;
+	top: 300px;
+}
+
 .content p{
 	color: #ffffff;
 	text-align: center;
-	font-size: 30px;
+	font-size: 40px;
 	margin: 0 auto;
 }
-#text  p{
-	margin-top: 50px; 
+
+#text p{
+
+	margin-top: 50px;
+
 }
 
 .col-md-3 h4{
@@ -74,23 +95,9 @@ button{
 } 
 .col-md-3 p{
 	color: #000000;
-}``
+}
 
-.container{
-	height: 600px;
-	width: 100%;
-}
-.container h2{
-	text-align: center;
-	margin-top: 50px;
-	margin-bottom: 50px;
-	font-size: 30px;
-	font-weight: bold;
-	color: #000000;
-}
-.container a{
-	text-decoration: none;
-}
+
 #beneficiary{
 	text-decoration: none;
 	width: 230px;
@@ -164,8 +171,7 @@ button{
 
 footer{
 	background: rgba(0,0,0,0.8);
-	height: 450px;
-	/*width: 1500px;*/
+	height: 250px;
 	overflow: hidden;
 }
 
@@ -176,30 +182,63 @@ footer{
 	width: 150px;
 }
 
-.col-md-6 p{
-	color: #ffffff;
-	font-size: 20px;
+#contactLinks ul li {
+	color: #bbbbbb;
+	list-style: none;
 }
-.col-md-6 h4{
+
+
+footer h4 {
 	font-size: 20px;
 	color: #ffffff;
 	margin-top: 30px;
 	margin-right: 200px;
 	font-weight: bold;
-	text-align: center;
+}
+
+footer h4:before {
+	content: '';
+	position: absolute;
+	/*left: 0px;*/
+	/*bottom: 0px;*/
+	bottom: 120px;
+	width: 30px;
+	border-bottom: 2px solid #00a651;
+}
+
+footer p {
+	color: #bbbbbb;
+	font-size: 20px;
+}
+
+/*#footerLogo {*/
+	/*width: 100px;*/
+	/*height: 100px;*/
+/*}*/
+
+.footerColumn p {
+	margin: 30px 0 0 0;
+	font-size: 15px;
+	padding: 5px;
 }
 .footer a{
 	color: #00a74f;
 }
 .footer{
-	margin-left: 50px;
-	margin-top: 30px;
+	background: #000000;
 	text-align: center;
 }
 .footer p{
 	color: #ffffff;
 	margin-top: 20px;
 	font-size: 20px;
+}
+
+#footerImage {
+	text-align: center;
+	width: 100px;
+	height: 40px;
+	margin: 0 auto;
 }
 .fa-map-marker{
 	margin-top: 20px;
@@ -221,4 +260,40 @@ footer{
 	width: 240px;
 	margin: 0 100px;
 	text-align: center;
+}
+
+#featuresColumn {
+	background: #fafafa;
+	padding: 120px 0 90px 0;
+	border-top: 1px solid whitesmoke;
+}
+
+.featureItems {
+	background-color: white;
+	border-radius: 3px;
+	box-shadow: 0 3px 12px -2px rgba(0, 0, 0, 0.1);
+	margin: 10px;
+	margin-bottom: 30px;
+	padding: 30px 25px 25px;
+	text-align: center;
+}
+
+.featureItems-icons {
+	margin: 0 auto;
+	width: 60px;
+	height: 60px;
+}
+
+.featureItems-title {
+	color: #011b33;
+	font-size: 1.6rem;
+	margin-bottom: 0;
+	margin-top: 20px;
+}
+
+.featureItems-description {
+	font-size: 1.3rem;
+	line-height: 1.3;
+	margin-bottom: 0;
+	margin-top: 10px;
 }
