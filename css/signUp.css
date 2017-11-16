@@ -2,23 +2,26 @@
 	padding: 0;
 	margin: 0;
 }
+body {
+	font-family: 'Roboto', sans-serif;
+}
 .overlay {
 	min-height: 650px;
 	background: rgba(0,0,0,0.4);
 }
 #landing-page{
 	position: relative;
-	/* height: 650px; */
+	 min-height: 650px; 
 	margin: 0;
 	background-image: url("../images/office-pix.jpg");
 	background-position: center;
     background-repeat: no-repeat;
 	background-size: cover;
-	height: 100%;
 }
 
 #pageWrapper {
 	padding: 0 !important;
+	margin: 0 !important;
 }
 
 .logo{

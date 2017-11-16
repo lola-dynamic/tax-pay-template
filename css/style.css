@@ -34,7 +34,7 @@ body {
 }
 .landing-page{
 	position: relative;
-	height: 700px;
+	min-height: 700px;
 	background-color: #00a74f;
 	background-image: url("../images/module-4.jpg");
 	background-position: center;
@@ -56,18 +56,10 @@ body {
 }
 
 button{
+	text-align: center;
 	width: 120px;
 	height: 50px;
-	margin-left: 50px;
-	font-size: 15px;
-}
-.btn-ready{
-	color: #ffffff;
-	background-color: #00a74f;
-}
-.btn-danger{
-	margin-left: 20px;
-
+	
 }
 
 .content {
@@ -144,7 +136,18 @@ footer{
 	color: #bbbbbb;
 	list-style: none;
 }
-
+#image-content{
+	height: 100px;
+}
+#left-image{
+width: 800px;
+}
+#text{
+	padding: 50px;
+}
+.link{
+	text-align: center;
+}
 
 footer h4 {
 	font-size: 20px;
