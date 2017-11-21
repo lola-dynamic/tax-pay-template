@@ -8,10 +8,14 @@ body {
 }
 
 #navigation {
+	position: fixed;
+	z-index: 2;
 	margin-bottom: 0;
 	height: 80px;
 	line-height: 80px;
 	border: none;
+
+	width: 100%;
 
 	background: rgba(0,0,0,0.35);
 }
@@ -110,14 +114,18 @@ a{
 }
 .moreBtn{
 	text-align: center;
-	width: 1050px;
 }
 #linkBtn{
-	height: 60px;
-	width: 250px;
+	height: 50px;
+	width: 200px;
+	border-radius: 15px;
 }
 #taxLogo{
 	height: 50px;
+}
+#withLogo{
+	height: 100px;
+	width: 250px;
 }
 footer{
 	background: rgba(0,0,0,0.8);
@@ -136,14 +144,12 @@ footer{
 	color: #bbbbbb;
 	list-style: none;
 }
-#image-content{
-	height: 100px;
-}
-#left-image{
-width: 800px;
+
+#image-content h4{
+	margin-top: 80px;
 }
 #text{
-	padding: 50px;
+	padding: ;
 }
 .link{
 	text-align: center;
