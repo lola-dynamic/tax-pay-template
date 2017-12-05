@@ -4,19 +4,18 @@
 }
 
 body {
-	font-family: 'Roboto', sans-serif;
+	font-family: "Catamaran", sans-serif;
 }
 
 #navigation {
 	position: fixed;
 	z-index: 2;
 	margin-bottom: 0;
+	margin-top: 0;
 	height: 80px;
 	line-height: 80px;
 	border: none;
-
 	width: 100%;
-
 	background: rgba(0,0,0,0.35);
 }
 
@@ -33,22 +32,16 @@ body {
 }
 
 .pageWrapper{
+	max-width: 100%;
+	width: 100%;
 	padding: 0 !important;
 	margin: 0 !important;
 }
-.landing-page{
-	position: relative;
-	min-height: 700px;
-	background-color: #00a74f;
-	background-image: url("../images/module-4.jpg");
-	background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-#overlay{
-	height: 700px;
+
+
+.item{
 	width: 100%;
-	background: rgba(0,0,0,0.5);
+	height: 700px;
 }
 
 .navbar .navbar-inverse {
@@ -65,17 +58,25 @@ button{
 	height: 50px;
 	
 }
-
-.content {
+.carousel-inner{
+	max-width: 100%;
+	width: 100%;
+}
+.carousel-caption {
 	position: relative;
 	top: 300px;
 }
 
-.content p{
+.carousel-caption p{
 	color: #ffffff;
 	text-align: center;
-	font-size: 40px;
-	margin: 0 auto;
+	font-size: 30px;
+	margin-top: 150px;
+	/*margin: auto auto;*/
+}
+section{
+	max-width: 100%;
+	width: 100%;
 }
 
 #text p{
@@ -84,6 +85,12 @@ button{
 
 }
 
+#featurespage{
+	max-width: 100%;
+	width: 100%;
+	background: green;
+	/*width: 100%;*/
+}
 .col-md-3 h4{
 	color: #00a74f;
 } 
@@ -105,6 +112,18 @@ button{
     margin-left: 50px;
     background-color: #ffffff;
     box-shadow: 2px 1px 2px #888888;
+}
+/*.col-md-3{
+	color: #000000;
+	width: 230px;
+    height: 230px;
+    text-align: center;
+    margin-left: 50px;
+    background-color: #ffffff;
+    box-shadow: 2px 1px 2px #888888;
+}*/
+.featureItems h3{
+	font-size: 20px;
 }
 a{
 	text-decoration: none;

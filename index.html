@@ -2,31 +2,35 @@
 <html>
 <head>
 	<title>TaxIt Pay Home Page</title>
-	<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet"> -->
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
+	<link rel="stylesheet" type="text/css" href="http://startbootstrap.com/template-overviews/full-slider">
+	<link href="https://fonts.googleapis.com/css?family=Catamaran" rel="stylesheet">
+`</head>
 <body>
-<div class="pageWrapper">
-	<!-- beginning of header page -->
+	<div class="pageWrapper">
+		<!-- beginning of header page -->
 
-	<div class="container-fluid">
-		<div class="row">
-			<div class="landing-page">
-				<div id="overlay">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="landing-page">
 					<div>
 						<nav id="navigation" class="navbar navbar-inverse">
 							<div class="container-fluid">
 								<!-- Brand and toggle get grouped for better mobile display -->
 								<div class="navbar-header">
-									<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+									<!-- <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
 										<span class="sr-only">Toggle navigation</span>
 										<span class="icon-bar"></span>
 										<span class="icon-bar"></span>
+
 										<span class="icon-bar"></span>
-									</button>
+									</button> -->
 
 									<a id="navbarLogo" class="navbar-brand" href="index.html">
 										<img src="images/logo.png" class="img-responsive">
@@ -55,297 +59,342 @@
 							</div><!-- /.container-fluid -->
 						</nav>
 
-						<div class="content">
-							<p id="text">
-								With TaxiTPay, I can securely pay remit taxes, pay employees' salaries and make other relevant payments.
-							</p>
+
+						<div class="container">
+							<div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+								<!-- Wrapper for slides -->
+								<div class="carousel-inner">
+									<div class="item active">
+										<img src="images/taxaide1.jpg" class="img-responsive">
+										<div class="carousel-caption">
+											<p id="text">
+												With TaxiTPay, I can securely pay remit taxes, pay employees' salaries and make other relevant payments.
+											</p>
+										</div>
+									</div>
+
+									<div class="item">
+										<img src="images/taxaide2.jpg" class="img-responsive">
+										<div class="carousel-caption">
+											<p id="text">
+												With TaxiTPay, I can securely pay remit taxes, pay employees' salaries and make other relevant payments.
+											</p>
+										</div>
+									</div>
+
+									<div class="item">
+										<img src="images/taxaide5.jpg" clas="img-responsive">
+										<div class="carousel-caption">
+											<p id="text">
+												With TaxiTPay, I can securely pay remit taxes, pay employees' salaries and make other relevant payments.
+											</p>
+										</div>
+									</div>
+								</div>
+
+								<!-- Left and right controls -->
+								<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+									<span class="glyphicon glyphicon-chevron-left"></span>
+									<span class="sr-only">Previous</span>
+								</a>
+								<a class="right carousel-control" href="#myCarousel" data-slide="next">
+									<span class="glyphicon glyphicon-chevron-right"></span>
+									<span class="sr-only">Next</span>
+								</a>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
 
 
-	<section id="whyColumn">
-		<div class="container">
-			<div class="columnHeaders">
-				<h2 class="columnHeaderTitle">WHY TAXITPAY</h2>
-				<p class="columnHeaderContent">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-					Atque blanditiis laudantium molestias placeat tempora.
-					Dolor, esse hic in, maxime neque nulla placeat porro
-					quas quisquam quos sint, sunt ullam unde?
-				</p>
-			</div>
+		<section id="whyColumn">
+			<div class="container">
+				<div class="columnHeaders">
+					<h2 class="columnHeaderTitle">WHY TAXITPAY</h2>
+					<p class="columnHeaderContent">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						Atque blanditiis laudantium molestias placeat tempora.
+						Dolor, esse hic in, maxime neque nulla placeat porro
+						quas quisquam quos sint, sunt ullam unde?
+					</p>
+				</div>
 
-			<div class="row">
-				<div id="image-content">
-					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-						<div id="left-image">
-						<img src="images/beedee.jpg" class="img-responsive"> 
+				<div class="row">
+					<div id="image-content">
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+							<div id="left-image">
+								<img src="images/taxaide1.jpg" class="img-responsive"> 
 							</div>
 						</div>
-					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-						<div id="text">
-							<h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-							consequat.</h4>
-							<h4>Duis aute irure dolor in reprehenderit in voluptate velit esse
-								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h4>
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+							<div id="text">
+								<h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+									consequat
+								</h4>
+								<h4>Duis aute irure dolor in reprehenderit in voluptate velit esse
+									cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+									proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+								</h4>
+							</div>
+							<a href="#">
+								<div class="link form-group">
+									<button class="btn btn-success" id="linkBtn"> EXPLORE </button>
+								</div>
+							</a>
+						</div>
 					</div>
-					<a href="#">
-						<div class="link form-group">
-							<button class="btn btn-success" id="linkBtn"> EXPLORE </button>
+				</div>
+			</div>
+		</section>
+
+		<!-- end of header page -->
+
+		<section id="featuresColumn">
+			<div class="container">
+				<div class="columnHeaders">
+					<h2 class="columnHeaderTitle">FEATURES</h2>
+					<p class="columnHeaderContent">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						Atque blanditiis laudantium molestias placeat tempora.
+						Dolor, esse hic in, maxime neque nulla placeat porro
+						quas quisquam quos sint, sunt ullam unde?
+					</p>
+				</div>
+
+				<div id="featurespage">
+					<div class="row">
+						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+							<a href="#">
+								<div class="featureItems">
+									<div>
+										<div class="featureItems-icons">
+											<img src="images/beneficiaries.png" class="img-responsive">
+										</div>
+										<h4 class="featureItems-title">Beneficiaries</h4>
+										<p class="featureItems-description">Make payment to beneficiaries, update and edit details of beneficiaries.</p>
+									</div>
+								</div>
+							</a>
 						</div>
-					</a>
-				</div>
+
+						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+							<a href="#">
+								<div class="featureItems">
+									<div >
+										<div class="featureItems-icons">
+											<img src="images/wallet.png" class="img-responsive">
+										</div>
+										<h4 class="featureItems-title">TaxiTWallet</h4>
+										<p class="featureItems-description">Fund your TaxiTWallet or check your account balance to carry out any transaction.</p>
+									</div>
+								</div>
+							</a>
+						</div>
+
+						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+							<a href="#">
+								<div class="featureItems">
+									<div>
+										<div class="featureItems-icons">
+											<img src="images/receipts.png" class="img-responsive">
+										</div>
+										<h4 class="featureItems-title">TaxiTPaySlip</h4>
+										<p class="featureItems-description">Send PaySlip to employees with just a click.
+										</p>
+									</div>
+								</div>
+							</a>
+						</div>
+
+						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+							<a href="#">
+								<div class="featureItems">
+									<div >
+										<div class="featureItems-icons">
+											<img src="images/payAVendor.png" class="img-responsive">
+										</div>
+										<h4 class="featureItems-title">Pay A Vendor</h4>
+										<p class="featureItems-description">Make payment to any vendor of your choice for service provided.</p>
+									</div>
+								</div>
+							</a>
+						</div>
+
+						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+							<a href="#">
+								<div class="featureItems">
+									<div>
+										<div class="featureItems-icons">
+											<img src="images/netSalaries.png" class="img-responsive">
+										</div>
+										<h4 class="featureItems-title">Net Salaries</h4>
+										<p class="featureItems-description">Make payment for net salaries to employees using uploaded payment schedules.</p>
+									</div>
+								</div>
+							</a>
+						</div>
+
+						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+							<a href="#">
+								<div class="featureItems">
+									<div>
+										<div class="featureItems-icons">
+											<img src="images/pension.png" class="img-responsive">
+										</div>
+										<h4 class="featureItems-title">Pension</h4>
+										<p class="featureItems-description">Make pension payment to the Pension Fund Administrator(PFA) of your choice.</p>
+									</div>
+								</div>
+							</a>
+						</div>
+
+						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+							<a href="#">
+								<div class="featureItems">
+									<div>
+										<div class="featureItems-icons">
+											<img src="images/remitTax.png" class="img-responsive">
+										</div>
+										<h4 class="featureItems-title">RemiTTax</h4>
+										<p class="featureItems-description">Make income tax remittances to the state internal revenue service for your employees.</p>
+									</div>
+								</div>
+							</a>
+						</div>
+
+						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+							<a href="#">
+								<div class="featureItems">
+									<div >
+										<div class="featureItems-icons">
+											<img src="images/makePayment.png" class="img-responsive">
+										</div>
+										<h4 class="featureItems-title">Make Payment</h4>
+										<p class="featureItems-description">TaxiTPay supports varieties of payments at your convenience.</p>
+									</div>
+								</div>
+							</a>
+						</div>
+
+						<div class="col-lg-12 col-md-12 col-xs-12">
+							<div class="moreBtn form-group">
+								<button class="btn btn-success" id="linkBtn">Find Out More </button>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
-				
-		</div>
-	</section>
+		</section>
 
 
+		<section id="whyColumn">
+			<div class="container">
+				<div class="columnHeaders">
+					<h2 class="columnHeaderTitle">OTHER PRODUCTS</h2>
+					<p class="columnHeaderContent">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						Atque blanditiis laudantium molestias placeat tempora.
+						Dolor, esse hic in, maxime neque nulla placeat porro
+						quas quisquam quos sint, sunt ullam unde?
+					</p>
+				</div>
 
-	<!-- end of header page -->
+				<div class="row">
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+						<a href="#">
+							<div class="featureItems">
+								<img src="images/taxitPayrollLogo.png" class="img-responsive" id="taxLogo">
+								<h3 class="featureItems-description">TaxiTPayroll® provides the most robust solution for payroll taxes...</h3>
+							</div>
+						</a>
+					</div>
 
-	<section id="featuresColumn">
-		<div class="container">
-			<div class="columnHeaders">
-				<h2 class="columnHeaderTitle">FEATURES</h2>
-				<p class="columnHeaderContent">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-					Atque blanditiis laudantium molestias placeat tempora.
-					Dolor, esse hic in, maxime neque nulla placeat porro
-					quas quisquam quos sint, sunt ullam unde?
-				</p>
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+						<a href="#">
+							<div class="featureItems">
+								<img src="images/tBook.jpg" class="img-responsive" id="taxLogo">
+								<h3 class='featureItems-description'>TBook® is a mobile application that provides you finacial services... </h3>
+							</div>
+						</a>
+					</div>
+
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+						<a href="#">
+							<div class="featureItems">
+								<img src="images/withHoldLogo.png" class="img-responsive" id="withLogo">
+								<h3 class="featureItems-description">TaxiTWithhold® is a cloud-based vendor-related payments...</h3>
+							</div>
+						</a>
+					</div>
+				</div>
+
+				<div class="col-lg-12 col-md-12 col-xs-12">
+					<div class="moreBtn form-group">
+						<a href="http://taxit.com.ng/">
+							<button class="btn btn-success" id="linkBtn"> SEE ALL </button>
+						</a>
+					</div>
+				</div>
 			</div>
+		</section>
 
+		<footer class="tax-footer container-fluid">
 			<div class="row">
-				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-					<a href="#">
-						<div class="featureItems">
-							<div>
-								<div class="featureItems-icons">
-									<img src="images/beneficiaries.png" class="img-responsive">
-								</div>
-								<h4 class="featureItems-title">Beneficiaries</h4>
-								<p class="featureItems-description">Make payment to beneficiaries, update and edit details of beneficiaries.</p>
-							</div>
-						</div>
-					</a>
+				<div class="footerColumn col-lg-6 col-md-6 col-sm-6 col-xs-12">
+					<div id="footerLogo">
+						<img src="images/logo.png" class="img-responsive">
+					</div>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium
+						alias aliquam, at culpa cupiditate deserunt earum ex facilis fuga
+						ipsum maxime molestias nemo pariatur possimus quibusdam quis sunt
+						voluptatum! Quisquam!
+					</p>
 				</div>
 
-				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-					<a href="#">
-						<div class="featureItems">
-							<div >
-								<div class="featureItems-icons">
-									<img src="images/wallet.png" class="img-responsive">
-								</div>
-								<h4 class="featureItems-title">TaxiTWallet</h4>
-								<p class="featureItems-description">Fund your TaxiTWallet or check your account balance to carry out any transaction.</p>
-							</div>
-						</div>
-					</a>
-				</div>
-
-				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-					<a href="#">
-						<div class="featureItems">
-							<div>
-								<div class="featureItems-icons">
-									<img src="images/receipts.png" class="img-responsive">
-								</div>
-								<h4 class="featureItems-title">TaxiTPaySlip</h4>
-								<p class="featureItems-description">Send PaySlip to employees with just a click.</p>
-							</div>
-						</div>
-					</a>
-				</div>
-
-				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-					<a href="#">
-						<div class="featureItems">
-							<div >
-								<div class="featureItems-icons">
-									<img src="images/payAVendor.png" class="img-responsive">
-								</div>
-								<h4 class="featureItems-title">Pay A Vendor</h4>
-								<p class="featureItems-description">Make payment to any vendor of your choice for service provided.</p>
-							</div>
-						</div>
-					</a>
-				</div>
-
-				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-					<a href="#">
-						<div class="featureItems">
-							<div>
-								<div class="featureItems-icons">
-									<img src="images/netSalaries.png" class="img-responsive">
-								</div>
-								<h4 class="featureItems-title">Net Salaries</h4>
-								<p class="featureItems-description">Make payment for net salaries to employees using uploaded payment schedules.</p>
-							</div>
-						</div>
-					</a>
-				</div>
-
-				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-					<a href="#">
-						<div class="featureItems">
-							<div>
-								<div class="featureItems-icons">
-								<img src="images/pension.png" class="img-responsive">
-								</div>
-								<h4 class="featureItems-title">Pension</h4>
-								<p class="featureItems-description">Make pension payment to the Pension Fund Administrator(PFA) of your choice.</p>
-							</div>
-						</div>
-					</a>
-				</div>
-
-				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-					<a href="#">
-						<div class="featureItems">
-							<div>
-								<div class="featureItems-icons">
-									<img src="images/remitTax.png" class="img-responsive">
-								</div>
-								<h4 class="featureItems-title">RemiTTax</h4>
-								<p class="featureItems-description">Make income tax remittances to the state internal revenue service for your employees.</p>
-							</div>
-						</div>
-					</a>
-				</div>
-
-				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-					<a href="#">
-						<div class="featureItems">
-							<div >
-								<div class="featureItems-icons">
-									<img src="images/makePayment.png" class="img-responsive">
-								</div>
-								<h4 class="featureItems-title">Make Payment</h4>
-								<p class="featureItems-description">TaxiTPay supports varieties of payments at your convenience.</p>
-							</div>
-						</div>
-					</a>
-				</div>
-
-			<div class="col-lg-12 col-md-12 col-xs-12">
-				<div class="moreBtn form-group">
-					<button class="btn btn-success" id="linkBtn">Find Out More </button>
+				<div class="footerColumn col-lg-6 col-md-6 col-sm-6 col-xs-12">
+					<h4>Contact Us</h4>
+					<div id="contactLinks">
+						<ul>
+							<li>
+								<span class="fa fa-2x fa-map-marker"> </span>
+								73 Coker Road, ilupeju, Lagos, Nigeria.
+							</li>
+							<li>
+								<span class="fa fa-2x fa-envelope-square"> </span>
+								Email: contact@taxtech.com.ng
+							</li>
+							<li>
+								<span class="fa fa-2x fa-phone-square"> </span>
+								Mobile: +234 90 719 66612
+							</li>
+						</ul>
+					</div>
 				</div>
 			</div>
-			</div>
+		</footer>
+
+		<div class="footer container-fluid text-center">
+			<!--<hr style="border: 0.5px solid red">-->
+			<p>
+				Copyright &copy; 2017. All Rights Reserved
+			</p>
+
+			<a href="#">
+				<div id="footerImage">
+					<img src="images/taxtechLogo.png" class="img-responsive">
+				</div>
+			</a>
 		</div>
-
-	</section>
-
-	<section id="whyColumn">
-		<div class="container">
-			<div class="columnHeaders">
-				<h2 class="columnHeaderTitle">OTHER PRODUCTS</h2>
-				<p class="columnHeaderContent">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-					Atque blanditiis laudantium molestias placeat tempora.
-					Dolor, esse hic in, maxime neque nulla placeat porro
-					quas quisquam quos sint, sunt ullam unde?
-				</p>
-			</div>
-
-			<div class="row">
-				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-					<a href="#">
-						<div>
-							<img src="images/taxitPayrollLogo.png" class="img-responsive" id="taxLogo">
-							<h3>TaxiTPayroll® provides the most robust solution for payroll taxes...</h3>
-						</div>
-					</a>
-				</div>
-
-				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-					<a href="#">
-						<div>
-							<img src="images/tBook.jpg" class="img-responsive" id="taxLogo">
-							<h3>TBook® is a mobile application that provides you finacial services... </h3>
-						</div>
-					</a>
-				</div>
-
-				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-					<a href="#">
-						<div>
-							<img src="images/withHoldLogo.png" class="img-responsive" id="withLogo">
-							<h3>TaxiTWithhold® is a cloud-based vendor-related payments...</h3>
-						</div>
-					</a>
-				</div>
-			</div>
-
-			<div class="col-lg-12 col-md-12 col-xs-12">
-				<div class="moreBtn form-group">
-					<a href="http://taxit.com.ng/">
-						<button class="btn btn-success" id="linkBtn"> SEE ALL </button>
-					</a>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<footer class="tax-footer container-fluid">
-		<div class="row">
-			<div class="footerColumn col-lg-6 col-md-6 col-sm-6 col-xs-12">
-				<div id="footerLogo">
-					<img src="images/logo.png" class="img-responsive">
-				</div>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium
-					alias aliquam, at culpa cupiditate deserunt earum ex facilis fuga
-					ipsum maxime molestias nemo pariatur possimus quibusdam quis sunt
-					voluptatum! Quisquam!
-				</p>
-			</div>
-
-			<div class="footerColumn col-lg-6 col-md-6 col-sm-6 col-xs-12">
-				<h4>Contact Us</h4>
-				<div id="contactLinks">
-					<ul>
-						<li>
-							<span class="fa fa-2x fa-map-marker"> </span>
-							73 Coker Road, ilupeju, Lagos, Nigeria.
-						</li>
-						<li>
-							<span class="fa fa-2x fa-envelope-square"> </span>
-							Email: contact@taxtech.com.ng
-						</li>
-						<li>
-							<span class="fa fa-2x fa-phone-square"> </span>
-							Mobile: +234 90 719 66612
-						</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</footer>
-
-	<div class="footer container-fluid text-center">
-		<!--<hr style="border: 0.5px solid red">-->
-		<p>
-			Copyright &copy; 2017. All Rights Reserved
-		</p>
-
-		<a href="#">
-			<div id="footerImage">
-				<img src="images/taxtechLogo.png" class="img-responsive">
-			</div>
-		</a>
 	</div>
-</div>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>
